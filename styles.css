@@ -4,26 +4,20 @@
 
 .container{
     display: flex;
-    margin: 0 auto;
+    margin: 20vh auto;
     flex-direction: row;
-    width: 50%;
-    transform: translateY(50%);
+    width: 60%;
     
 }
 
 @media (max-width:800px) {
     .container{
         flex-direction: column;
-        width: 50%;
     }
 }
 
 .card{
     padding: 30px;
-}
-
-.card-icon{
-    padding: 20px 30px;
 }
 
 .left-card{
@@ -41,21 +35,25 @@
     border-radius: 0 10px 10px 0;
 }
 
+.card-header, .card-body{
+    margin: 1em;
+}
+
+.card-footer{
+    margin-inline: 1rem;
+    padding-top: 2rem;
+}
+
 .card-title{
     text-transform: uppercase;
     color: white;
-    padding-inline: 30px;
 }
 
 .card-content{
-    padding: 10px 30px;
     color: white;
 }
 
 .LearnMore{
-    margin-bottom: 30px;
-    margin-inline: 30px;
-    padding: 5px 20px;
     background: transparent;
     border: 1px solid transparent;
     border-radius: 20px;
@@ -75,7 +73,6 @@
 
 .btn-middle{
     color: lightblue;
-    margin-top: 20px;
 }
 
 .btn-middle:hover{
